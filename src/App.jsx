@@ -1,8 +1,11 @@
+import Navbar from "./Components/Header/Navbar";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className="overflow-hidden bg-white">
+      <Navbar></Navbar>
+
+      <h1>Hero</h1>
     </div>
   );
 }
